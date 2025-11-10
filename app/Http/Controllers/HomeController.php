@@ -12,7 +12,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('admin.home.index');
+        $homes = Home::orderBy('id', 'DESC');
+        return view('admin.home.index', compact('homes'));
     }
 
     /**
