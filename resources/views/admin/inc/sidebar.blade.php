@@ -85,17 +85,17 @@
               <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="{{ route('home-admin.index') }}" class="menu-link">
-                    <div data-i18n="Without menu">Home menu</div>
+                    <div data-i18n="Without menu">Home Menu</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-without-navbar.html" class="menu-link">
-                    <div data-i18n="Without navbar">Without navbar</div>
+                  <a href="{{ route('about-admin.index') }}" class="menu-link">
+                    <div data-i18n="Without navbar">About Menu</div>
                   </a>
                 </li>
                 <li class="menu-item">
-                  <a href="layouts-container.html" class="menu-link">
-                    <div data-i18n="Container">Container</div>
+                  <a href="{{ route('inst-admin.index') }}" class="menu-link">
+                    <div data-i18n="Container">Instructor Menu</div>
                   </a>
                 </li>
                 <li class="menu-item">
